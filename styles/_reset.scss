@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+img,
+picture,
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}
