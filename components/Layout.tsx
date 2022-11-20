@@ -1,13 +1,14 @@
 import { ReactNode } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import Hero from './hero'
 
 // Our main Layout
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <>
-      <Header />
+			<Hero/>
       {children}
       <Footer />
     </>
